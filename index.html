@@ -1,0 +1,182 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
+  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+  <link rel="stylesheet" href="./assets/bootstrap/css/bootstrap.min.css">
+  <link rel="stylesheet" href="./style.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Kumbh+Sans:wght@400;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="path/to/font-awesome/css/font-awesome.min.css">
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.3/css/all.css"
+        integrity="sha384-SZXxX4whJ79/gErwcOYf+zWLeJdY/qpuqC4cAa9rOGUstPomtqpuNWT9wdPEn2fk"crossorigin="anonymous">
+  
+  <title>Frontend Mentor | E-commerce product page</title>
+
+  <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
+  <style>
+    .attribution { font-size: 11px; text-align: center; }
+    .attribution a { color: hsl(228, 45%, 44%); }
+  </style>
+</head>
+<body>
+    <!-- NAVBAR STARTS  -->
+    <nav class="navbar navbar-expand-lg navbar-light bg-white sticky-top">
+      <div class="container-fluid px-4">
+        <a class="navbar-brand dark boot" href="">
+          <img src="./assets/images/logo.svg" alt="">
+        </a>
+        <button 
+              class="navbar-toggler" 
+              type="button"
+              data-bs-toggle="collapse"
+              data-bs-target="#navbarNavDropdown"
+              aria-controls="navbarNavDropdown"
+              aria-expanded="false"
+              aria-label="Toggle navigation"
+         >
+             <span class="navbar-toggler-icon"></span>
+         </button>       
+         <div class="collapse navbar-collapse" id="navbarNavDropdown">
+            <ul class="navbar-nav ms-auto">
+                <li class="nav-item"><a class="nav-link" href="#">Collections</a></li>
+                <li class="nav-item"><a class="nav-link" href="#">Men</a></li>
+                <li class="nav-item"><a class="nav-link" href="#">Women</a></li>
+                <li class="nav-item"><a class="nav-link" href="#">About</a></li>
+                <li class="nav-item"><a class="nav-link contact" href="#">Contact</a></li>
+                <li class="nav-item"><a class="nav-link" href="#cart">
+                  <i class="fas fa-shopping-cart img2"></i>
+                </a></li>
+                <li class="nav-item"><a class="nav-link" href="#">
+                  <img src="./assets/images/image-avatar.png" alt="" style="width: 30px; margin-right: 150px;">
+                </a></li>
+                
+            </ul>
+         </div>
+    
+      </div>
+    </nav>
+    <!-- NAVBAR ENDS -->
+
+    <section id="cart" class="container">
+      <!-- <h6 class="carth"><b>Cart</b></h6><hr>
+      <div class="row ms-auto">
+        <div class="col-1"><img src="./assets/images/image-product-1-thumbnail.jpg" alt="" class="itemImage"></div>
+        <div class="col-3 col2">
+          <p class="itemName">Fall Limited Edition Sneakers</p>
+          <p class="itemPrice">$125.00 x 1<span class="totalprice"> = $125.00</span></p>
+        </div>
+      </div>
+      <button class="btn btn4" type="button">Checkout</button> -->
+    </section>
+
+    <!-- MAIN BODY STARTS -->
+    <div class="mainbody">
+
+      <div class="row">
+        <!-- Container for the image gallery -->
+      <div class="col-lg-5 col-md-5 col-sm-12 container" id="#products">
+
+        <!-- Full-width images with number text -->
+        <div class="mySlides">
+          <div class="numbertext"></div>
+            <img src="./assets/images/image-product-1.jpg" style="width:100%; border-radius: 10px;">
+        </div>
+
+        <div class="mySlides">
+          <div class="numbertext"></div>
+            <img src="./assets/images/image-product-2.jpg" style="width:100%; border-radius: 10px;">
+        </div>
+
+        <div class="mySlides">
+          <div class="numbertext"></div>
+            <img src="./assets/images/image-product-3.jpg" style="width:100%; border-radius: 10px;">
+        </div>
+
+        <div class="mySlides">
+          <div class="numbertext"></div>
+            <img src="./assets/images/image-product-4.jpg" style="width:100%; border-radius: 10px;">
+        </div>
+
+
+        <!-- Next and previous buttons -->
+        <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+        <a class="next" onclick="plusSlides(1)">&#10095;</a>
+
+        <!-- Image text -->
+        <div class="caption-container">
+          <p id="caption"></p>
+        </div>
+
+        <!-- Thumbnail images -->
+        <div class="row">
+          <div class="column d-sm-none d-md-block d-lg-block">
+            <img class="demo cursor" src="./assets/images/image-product-1-thumbnail.jpg" style="width:100%; border-radius: 10px;" onclick="currentSlide(1)" alt="">
+          </div>
+          <div class="column d-sm-none d-md-block d-lg-block">
+            <img class="demo cursor" src="./assets/images/image-product-2-thumbnail.jpg" style="width:100%; border-radius: 10px; margin-left: 40px;" onclick="currentSlide(2)" alt="">
+          </div>
+          <div class="column d-sm-none d-md-block d-lg-block">
+            <img class="demo cursor" src="./assets/images/image-product-3-thumbnail.jpg" style="width:100%; border-radius: 10px;  margin-left: 80px;" onclick="currentSlide(3)" alt="">
+          </div>
+          <div class="column d-sm-none d-md-block d-lg-block">
+            <img class="demo cursor" src="./assets/images/image-product-4-thumbnail.jpg" style="width:100%; border-radius: 10px;  margin-left: 120px;" onclick="currentSlide(4)" alt="">
+          </div>
+        </div>
+
+
+        </div>
+        <div class="col-lg-1 col-md-1"></div>
+        <div class="col-lg-6 col-md-6 col-sm-12 moblsm">
+          <p class="sneaker">Sneaker Company</p>
+          <h1 class="fall">Fall Limited Edition <br> Sneakers</h1>
+          <p class="d-sm-none d-md-block d-lg-block these">These low-profile sneakers are your perfect casual wear 
+            companion. Featuring a durable rubber outer sole, they'll 
+            withstand everything the weather can offer.
+          </p>
+
+          <p class="d-none d-sm-block d-md-none thesesm">These low-profile sneakers are your perfect 
+            casual wear companion. Featuring a durable rubber outer sole, they'll
+            withstand everything the weather can offer.
+          </p>
+          
+          <div class="row dollar">
+            <div class="col-md-1 col-sm-1"><h1 class="d-sm-none d-md-block d-lg-block f125" id="price">125.00</h1></div>
+            <div class="col-md-1 col-sm-1 d-sm-none d-md-block d-lg-block f50"><p class="pf50">50%</p></div>
+                    
+            <!-- sm device -->
+              <div class="col-sm-1"><h1 class="d-none d-sm-block d-md-none f125sm" id="price">125.00</h1></div>
+              <div class="col-sm-1 d-none d-sm-block d-md-none f50sm"><p class="pf50">50%</p></div>
+              <div class="col-sm-1 d-none d-sm-block d-md-none"><p class="f250sm"><strike>$250.00</strike></p></div>      
+          </div>
+
+          <p class="d-sm-none d-md-block f250"><strike>$250.00</strike></p>
+
+          <div class="row buttons">
+            <div class="row col-md-3 col-sm-3 button">
+              <button class="col-md-1 col-sm-1 btn minus-btn disabled" type="button"><i class="fas fa-minus" style="color: #fd7e14;"></i> </button>
+              <div class="col-md-1 col-sm-1 num"><input type="number" id="quantity" value="1" class="num1"></div>
+              <button class="col-md-1 col-sm-1 btn plus-btn" type="button"><i class="fas fa-plus" style="color: #fd7e14;"></i></button>
+            </div>
+
+            <div class="col-md-3 col-sm-3" id="add_to_cart">
+              <button class="btn btn3 cart_btn" type="button"><i class="fas fa-shopping-cart"></i> &nbsp; Add to cart</button>
+            </div>
+          </div>
+        </div>
+      </div>
+  </div>
+    <!-- MAIN BODY ENDS -->
+
+  
+  
+  <div class="attribution" style="margin-top: 100px;">
+    Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
+    Coded by <a href="#">Pat</a>.
+  </div>
+  <script src="./assets/bootstrap/js/bootstrap.min.js"></script>
+  <script src="./main.js"></script>
+</body>
+</html>

@@ -1,0 +1,425 @@
+.boot {
+    margin-left: 150px;
+}
+.nav-link {
+    margin: 15px 15px 5px 15px;
+    width: fit-content;
+    font-family: 'Kumbh Sans', sans-serif;
+    color: hsl(220, 14%, 75%);
+}
+.img2 {
+    color: hsl(220, 14%, 75%);
+}
+.contact {
+    margin-right: 230px;
+}
+
+.mainbody {
+    border: 1px solid hsl(220, 14%, 75%);
+    border-right-width: 0px;
+    border-bottom-width: 0px;
+    border-left-width: 0px;
+    margin: 0px 170px 0px 170px !important;
+    padding-top: 60px;
+}
+.img-pro {
+    border-radius: 10px;
+}
+.sneaker {
+    font-family: 'Kumbh Sans', sans-serif;
+    font-weight: 700;
+    color: hsl(26, 100%, 55%);
+    text-transform: uppercase;
+    font-size: 16px;
+    letter-spacing: 2px;
+}
+.fall {
+    font-family: 'Kumbh Sans', sans-serif;
+    font-weight: 700;
+    font-size: 35px;
+    color: hsl(0, 0%, 0%);
+    text-align: justify;
+}
+.these {
+    font-family: 'Kumbh Sans', sans-serif;
+    font-weight: 400; 
+    font-size: 16px;
+    color: hsl(220, 14%, 75%);
+    margin-top: 30px;
+}
+.dollar {
+    margin-top: 30px;
+    display: flex;
+}
+.f125 {
+    font-family: 'Kumbh Sans', sans-serif;
+    font-weight: 700;
+    font-size: 25px;
+    color: hsl(0, 0%, 0%);
+    
+}
+.f50 {
+    width: 50px;
+    height: 24px;
+    background-color: hsl(25, 100%, 94%);
+    border-radius: 5px;
+    margin-left: 100px;
+    margin-top: 5px;
+}
+.pf50 {
+    color: hsl(26, 100%, 55%);
+    font-family: 'Kumbh Sans', sans-serif;
+    font-weight: 700;
+    font-size: 15px;
+}
+.f250 {
+    font-family: 'Kumbh Sans', sans-serif;
+    font-weight: 400; 
+    font-size: 16px;
+    color: hsl(220, 14%, 75%);
+}
+.num {
+    font-family: 'Kumbh Sans', sans-serif;
+    font-weight: 700;
+    font-size: 16px;
+    color: hsl(0, 0%, 0%);
+    padding-top: 10px;
+    margin-left: 20px;
+    margin-right: 20px;
+}
+.num1 {
+    background-color: hsl(223, 64%, 98%);
+    width: 35px;
+    text-align: center;
+    margin-left: -3px;
+    border-width: 0px;
+    border-color: hsl(223, 64%, 98%);
+    margin-top: -4px;
+}
+.buttons {
+  margin-left: 10px;
+}
+.button {
+    background-color: hsl(223, 64%, 98%);
+    width: 140px;
+    height: 40px;
+    border-radius: 10px;
+}
+
+.btn3 {
+    width: 200px;
+    height: 40px;
+    background-color: hsl(26, 100%, 55%);
+    border-radius: 10px;
+    margin-left: 50px;
+    font-family: 'Kumbh Sans', sans-serif;
+    font-weight: 400;
+    font-size: 16px;
+    color: hsl(0, 0%, 100%);   
+}
+.moblsm {
+    padding-top: 50px;
+}
+
+/* carts styling */
+* {
+    box-sizing: border-box;
+}
+  
+/* Position the image container (needed to position the left and right arrows) */
+.container {
+    position: relative;
+}
+
+/* Hide the images by default */
+.mySlides {
+    display: none;
+
+}
+
+/* Add a pointer when hovering over the thumbnail images */
+.cursor {
+    cursor: pointer;
+}
+
+/* Next & previous buttons */
+.prev,
+.next {
+    cursor: pointer;
+    position: absolute;
+    top: 45%;
+    width: auto;
+    margin-top: -50px;
+    color: white;
+    font-weight: bold;
+    font-size: 20px;
+    border-radius: 0 3px 3px 0;
+    user-select: none;
+    -webkit-user-select: none;
+    text-decoration: none;
+}
+
+.prev {
+    padding: 16px;
+}
+
+/* Position the "next button" to the right */
+.next {
+    right: 0;
+    border-radius: 3px 0 0 3px;
+    padding: 16px 28px 16px 16px;
+}
+
+/* On hover, add a black background color with a little bit see-through */
+.prev:hover,
+.next:hover {
+    background-color: hsl(0, 0%, 100%);
+    color: hsl(0, 0%, 0%);
+    border-radius: 50%;
+}
+
+/* Number text (1/3 etc) */
+.numbertext {
+    color: hsl(0, 0%, 100%);
+    font-size: 12px;
+    padding: 8px 12px;
+    position: absolute;
+    top: 0;
+}
+
+/* Container for image text */
+.caption-container {
+    text-align: center;
+    background-color: hsl(0, 0%, 100%);
+    padding: 2px 16px;
+    color: white;
+}
+
+.row:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+/* Six columns side by side */
+.column {
+    float: center;
+    width: 18%;
+    justify-content: center;
+}
+
+/* Add a transparency effect for thumnbail images */
+.demo {
+    opacity: 0.6;
+}
+
+.active,
+.demo:hover {
+    opacity: 1;
+}
+
+
+@media (max-width: 767px) {
+    .sneaker {
+        margin-top: 20px;
+    }
+    .fall {
+        font-size: 30px;
+    }
+    .thesesm {
+        font-family: 'Kumbh Sans', sans-serif;
+        font-weight: 400; 
+        font-size: 16px;
+        color: hsl(220, 14%, 75%);
+        margin-top: 20px; 
+        text-align: justify;
+    }
+    .dollar {
+        margin-bottom: 20px;
+    }
+    .f125sm {
+        font-family: 'Kumbh Sans', sans-serif;
+        font-weight: 700;
+        font-size: 25px;
+        color: hsl(0, 0%, 0%);
+        margin-left: -35px;
+    }
+    .f50sm {
+        width: 50px;
+        height: 25px;
+        background-color: hsl(25, 100%, 94%);
+        border-radius: 5px;
+        margin-left: 50px;
+        margin-top: 5px;
+    }
+    .f250sm {
+        font-family: 'Kumbh Sans', sans-serif;
+        font-weight: 400; 
+        font-size: 16px;
+        color: hsl(220, 14%, 75%);
+        margin-left: 192px;
+        margin-top: 2px; 
+    }
+    .btn3 {
+        margin-left: 98px;
+    }
+    .num1 {
+        margin-left: -10px;
+    }
+    .moblsm {
+        margin-top: -50px;
+    }
+}
+
+
+
+
+
+@media (max-width: 576px) {
+    .sneaker {
+        margin-top: 20px;
+        font-size: 12px;
+        letter-spacing: 2px;
+    }
+    .fall {
+        font-size: 20px;
+    }
+    .thesesm {
+        font-family: 'Kumbh Sans', sans-serif;
+        font-weight: 400; 
+        font-size: 11px;
+        color: hsl(220, 14%, 75%);
+        margin-top: 20px; 
+        text-align: justify;
+    }
+    .moblsm {
+        width: 90%;
+        margin-left: 10px !important;
+        margin-right: 10px !important;
+        margin-top: -50px;
+    }
+    .f125sm {
+        font-family: 'Kumbh Sans', sans-serif;
+        font-weight: 700;
+        font-size: 16px;
+        color: hsl(0, 0%, 0%);
+        margin-left: -23px;
+        margin-top: 0px;
+    }
+    .f50sm {
+        width: 47px;
+        height: 20px;
+        background-color: hsl(25, 100%, 94%);
+        border-radius: 5px;
+        margin-top: 0px;
+        margin-left: 35px;
+    }
+    .pf50 {
+        color: hsl(26, 100%, 55%);
+        font-family: 'Kumbh Sans', sans-serif;
+        font-weight: 700;
+        font-size: 13px;
+    }
+    .f250sm {
+        font-family: 'Kumbh Sans', sans-serif;
+        font-weight: 400; 
+        font-size: 14px;
+        color: hsl(220, 14%, 75%);
+        margin-left: 32px;
+        margin-top: -1px;
+    }
+    .btn3 {
+        margin-left: -25px;
+        margin-top: 5px;
+        width: 215px;
+    }
+    .dollar {
+        display: flex;
+        margin-top: 10px;
+        margin-bottom: 10px;
+    }
+    .button {
+        width: 270px;
+        height: 40px;
+        display: flex;
+        flex-direction: column;
+        margin-bottom: 10px;
+    }
+    .num {
+        font-family: 'Kumbh Sans', sans-serif;
+        font-weight: 700;
+        font-size: 16px;
+        color: hsl(0, 0%, 0%);
+        padding-top: 10px;
+        margin-left: 50px;
+        margin-right: 50px;
+   }
+   .num1 {
+       margin-left: -10px;
+       margin-top: -5px;
+   }
+}
+@media (max-width: 375px) {
+    .mainbody {
+        margin: 0px;
+    }
+    .boot {
+        margin-left: 0px;
+    }
+}
+
+#cart {
+    display: none;
+}
+#cart:target {
+    display: block;
+    position: absolute;
+    width: 280px;
+    height: 200px;
+    left: 75%;
+    top: 10%;
+    background-color: hsl(0, 0%, 100%);
+    box-shadow: 5px 5px 5px 5px hsl(223, 64%, 98%);   
+    border-radius: 10px;
+    padding-top: 20px;
+    margin-top: 16px;
+}
+.itemImage {
+    width: 50px;
+    height: 50px;
+    background-size: cover;
+    background-position: center center;
+    border-radius: 5px;
+}
+.carth {
+    color: hsl(0, 0%, 0%);
+    font-size: 16px;
+}
+.col2 {
+    margin-left: 40px;
+    width: 200px;
+}
+.itemName {
+    color: hsl(220, 14%, 75%);
+    font-family: 'Kumbh Sans', sans-serif;
+    font-weight: 400;
+    font-size: 13px;
+}
+.itemPrice {
+    color: hsl(220, 14%, 75%);
+    margin-top: -10px;
+    font-family: 'Kumbh Sans', sans-serif;
+    font-weight: 400;
+    font-size: 13px;
+}
+.btn4 {
+    width: 250px;
+    height: 40px;
+    background-color: hsl(26, 100%, 55%);
+    margin-left: 3px;
+    border-radius: 10px;
+    font-family: 'Kumbh Sans', sans-serif;
+    font-weight: 400;
+    color: hsl(0, 0%, 100%);
+    font-size: 13px;
+}
